@@ -4,7 +4,6 @@ import dao.Dao;
 import dao.UserHibernateDaoImpl;
 import models.User;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Service implements Dao {

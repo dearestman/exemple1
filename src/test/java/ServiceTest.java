@@ -2,12 +2,10 @@ import models.User;
 import org.junit.Test;
 import services.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ServiceTest {
     Service service = new Service();
-    ArrayList<User> users = new ArrayList<>();
     User user = new User(221,"Olya", "Zemcovskaya", (byte) 25);
 
     {

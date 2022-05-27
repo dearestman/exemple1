@@ -1,7 +1,5 @@
 package models;
 
-import net.bytebuddy.implementation.bind.annotation.Empty;
-
 
 public class User {
 

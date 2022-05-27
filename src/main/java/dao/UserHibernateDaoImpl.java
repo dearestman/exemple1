@@ -8,7 +8,6 @@ import utils.Util;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class UserHibernateDaoImpl implements Dao {
 

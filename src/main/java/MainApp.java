@@ -26,5 +26,4 @@ public class MainApp {
           doEx2();
     }
 
-
 }
