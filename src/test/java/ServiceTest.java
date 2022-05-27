@@ -1,9 +1,9 @@
-import org.junit.Assert;
+import models.User;
 import org.junit.Test;
+import services.Service;
 
 import java.util.ArrayList;
-
-import static org.junit.Assert.*;
+import java.util.List;
 
 public class ServiceTest {
     Service service = new Service();
@@ -36,7 +36,7 @@ public class ServiceTest {
 
     @Test
     public void selectAllUsers() {
-        ArrayList<User> users = service.selectAllUsers();
+        List<User> users = service.selectAllUsers();
     }
 
     @Test

@@ -1,4 +1,10 @@
+package models;
+
+import net.bytebuddy.implementation.bind.annotation.Empty;
+
+
 public class User {
+
     private long id;
     private String name;
     private String lastName;
@@ -9,6 +15,10 @@ public class User {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
+    }
+
+    public User( ) {
+
     }
 
 
